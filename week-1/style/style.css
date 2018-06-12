@@ -1,0 +1,215 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'barkentina_testregular';
+    src: url('../fonts/barkentina_1-webfont.woff') format('woff2'),
+         url('../fonts/barkentina_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arsenalregular';
+    src: url('../fonts/arsenal-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arsenal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Common stylesheet for all pages */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	height: 40px;
+}
+
+.menu li{
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style: none;
+	background: lightgrey;
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	text-decoration: underline;
+}
+
+.listOne{
+	margin: 30px;
+	list-style-position: inside;
+	list-style-image: url(../images/happy.png);
+}
+
+.listTwo{
+	margin: 50px;
+	list-style-position: outside;
+}
+
+.definition{
+	margin: 30px;
+}
+
+.barkentina{
+	margin: 20px 30px;
+	font-family: 'barkentina_testregular', serif;
+}
+
+.arsenal{
+	margin: 20px 30px;
+	font-family: 'arsenalregular', sans-serif;
+}
+
+.trafficLight{
+	margin:  20px auto;
+	position: relative;
+	height: 410px;
+	width: 195px;
+	border: 1px solid black;
+	list-style: none;
+}
+
+.trafficLight li{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+	left: 48px;
+}
+
+.red{
+	top: 48px;
+	background-color: red;
+}
+
+.yellow{
+	top: 154px;
+	background-color: yellow;
+}
+
+.green{
+	top: 260px;
+	background-color: green;
+}
+
+.trafficLight-relative{
+	margin:  20px auto;
+	position: relative;
+	height: 410px;
+	width: 195px;
+	border: 1px solid black;
+	list-style: none;
+}
+
+.trafficLight-relative li{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+	left: 48px;
+}
+
+.red-relative{
+	top: 48px;
+	background-color: red;
+}
+
+.yellow-relative{
+	top: 54px;
+	background-color: yellow;
+}
+
+.green-relative{
+	top: 60px;
+	background-color: green;
+}
+
+.smile{
+	position: relative;
+	height: 420px;
+	width: 420px;
+	margin: 20px auto;
+	background-color: #4dee99;
+	border-radius: 50%;
+}
+
+.smile div{
+	background-color: white;
+}
+
+.left-eye, .right-eye{
+	height: 83px;
+	width: 83px;
+	border-radius: 50%;
+}
+
+.nose{
+	height: 60px;
+	width: 60px;
+}
+
+.mouth{
+	height: 16px;
+	width: 170px;
+}
+
+.pos-abs div{
+	position: absolute;
+}
+
+.pos-abs .left-eye{
+	top: 60px;
+	left: 85px;
+}
+
+.pos-abs .right-eye{
+	top: 60px;
+	left: 254px;
+}
+
+.pos-abs .nose{
+	top: 169px;
+	left: 182px;
+}
+
+.pos-abs .mouth{
+	top: 296px;
+	left: 128px;
+}
+
+.pos-rel div{
+	position: relative;
+}
+
+.pos-rel .left-eye{
+	top: 60px;
+	left: 85px;
+}
+
+.pos-rel .right-eye{
+	top: -23px;
+	left: 254px;
+}
+
+.pos-rel .nose{
+	top: -7px;
+	left: 182px;
+}
+
+.pos-rel .mouth{
+	top: 66px;
+	left: 128px;
+}
