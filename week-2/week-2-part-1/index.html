@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Week 2</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+	<div class="grad" title="Linear-gradient"></div>
+
+	<div class="wrapper">
+		<div class="pointer">
+			<p>Дистанции огромного размера</p>
+		</div>
+	</div>
+
+	<hr>
+
+	<table class="table-1">
+		<tr>
+			<th>Альбом</th>
+			<th>Год</th>
+		</tr>
+		<tr>
+			<td>Transmissions</td>
+			<td>1993</td>
+		</tr>
+		<tr>
+			<td>Luciana</td>
+			<td>1994</td>
+		</tr>
+		<tr>
+			<td>Beyond the Infinite</td>
+			<td>1995</td>
+		</tr>
+		<tr>
+			<td>Bible of Dreams</td>
+			<td>1997</td>
+		</tr>
+		<tr>
+			<td>Shango</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>Labyrinth</td>
+			<td>2004</td>
+		</tr>
+		<tr>
+			<td>Gods & Monsters</td>
+			<td>2008</td>
+		</tr>
+		<tr>
+			<td>Inside the Reactor</td>
+			<td>2011</td>
+		</tr>
+		<tr>
+			<td>The Golden Sun of the Great East</td>
+			<td>2013</td>
+		</tr>
+	</table>
+
+	<table class="table-2">
+		<tr>
+			<th>7:00</th>
+			<th>7:30</th>
+			<th>8:00</th>
+		</tr>
+		<tr>
+			<td colspan="3">"Сніданок з 1+1"</td>
+		</tr>
+		<tr>
+			<td>ТСН</td>
+			<td>Гроші</td>
+			<td>Ліга сміху</td>
+		</tr>
+		<tr>
+			<td>Мультфільми</td>
+			<td colspan="2">Все буде добре</td>
+		</tr>
+	</table>
+
+	<table class="table-3">
+		<tr>
+			<td>яблоки</td>
+			<td rowspan="3">апельсины</td>
+			<td>авокадо</td>
+		</tr>
+		<tr>
+			<td>бананы</td>
+			<td rowspan="2">ананасы</td>
+		</tr>
+		<tr>
+			<td>авокадо</td>
+		</tr>
+	</table>
+
+	<table class="table-4">
+		<caption>Заголовок таблицы</caption>
+		<tr>
+			<th rowspan="2"></th>
+			<th colspan="2">Общий заголовок для двух подзаголовков</th>
+			<th rowspan="2">Заголовок 3</th>
+		</tr>
+		<tr>
+			<th>Заголовок 1</th>
+			<th>Заголовок 2</th>
+		</tr>
+		<tr>
+			<th>Пункт А</th>
+			<td>данные А1</td>
+			<td>данные А2</td>
+			<td>данные А3</td>
+		</tr>
+		<tr>
+			<th>Пункт Б</th>
+			<td>данные Б1</td>
+			<td>данные Б2</td>
+			<td>данные Б3</td>
+		</tr>
+		<tr>
+			<th>Пункт В</th>
+			<td>данные В1</td>
+			<td>данные В2</td>
+			<td>данные В3</td>
+		</tr>
+	</table>
+
+	<hr>
+
+	<section class="zoo">
+		<h2>Форма заявки на работу в зоопарк</h2>
+		<p class="required-mark">Пожалуйста, заполните форму. Обязательные поля помечены</p>
+		<form>
+			<fieldset class="block-1">
+				<legend>Контактная информация</legend>
+				<label for="name" class="required-mark">Имя</label>
+				<input type="text" id="name">
+				<br>
+				<label for="tel">Телефон</label>
+				<input type="tel" id="tel">
+				<br>
+				<label for="email" class="required-mark">Email</label>
+				<input type="email" id="email">
+			</fieldset>
+			
+			<fieldset class="block-1">
+				<legend>Персональная информация</legend>
+				<label for="age">Возраст</label>
+				<input type="text" name="age" id="age">
+				<br>
+				<label for="sex">Пол</label>
+				<select id="sex">
+					<option>Женщина</option>
+					<option>Мужчина</option>
+				</select>
+				<br>
+				<label for="props">Перечислите личные <br> качества</label>
+				<textarea id="props"></textarea>
+			</fieldset>
+			
+			<fieldset class="block-2">
+				<legend>Выберите ваших любимых животных</legend>
+				<input type="checkbox" id="zebra"><label for="zebra">Зебра</label>
+				<input type="checkbox" id="cat"><label for="cat">Кот</label>
+				<input type="checkbox" id="anaconda"><label for="anaconda">Анаконда</label>
+				<input type="checkbox" id="dog"><label for="dog">Собака</label>
+				<br>
+				<input type="checkbox" id="elephant"><label for="elephant">Слон</label>
+				<input type="checkbox" id="antelope"><label for="antelope">Антилопа</label>
+				<input type="checkbox" id="pigeon"><label for="pigeon">Голубь</label>
+				<input type="checkbox" id="crab"><label for="crab">Краб</label>
+			</fieldset>
+
+			<input type="submit" name="employee-form" value="Отправить информацию">
+
+		</form>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+.grad{
+	height: 300px;
+	background: linear-gradient(to top right, purple 10%, crimson 30%, orangered 50%, gold 75%);
+}
+
+.wrapper{
+	margin-top: 20px;
+	height: 300px;
+	position: relative;
+	background-color: #333333;
+}
+
+.pointer{
+	width: 90%;
+	top: 20%;
+	left: 5%;
+	position: absolute;
+	margin: auto;
+	background-color: #88b7d5;
+	border: 3px solid #c2e1f5;
+	text-align: center;
+}
+
+.pointer::before{
+	content: "";
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	background-color: #88b7d5;
+	border-left: 3px solid #c2e1f5;
+	border-top: 3px solid #c2e1f5;
+	transform: rotate(45deg);
+	left: calc(50% - 22.5px);
+	top: -26px;
+}
+
+.pointer p{
+	margin: 0px;
+	height: 180px;
+	line-height: 180px;
+	font-size: 2vw;
+	color: white;
+}
+
+hr{
+	margin: 50px 0 50px 0;
+}
+
+table{
+	margin: 20px;
+}
+
+.table-1{
+	height: 300px;
+	width: 290px;
+}
+
+.table-1 *{
+	border: 1px solid black;
+}
+
+.table-2{
+	width: 355px;
+	height: 118px;
+}
+
+.table-2 th{
+	width: 100px;
+	height: 23px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.table-2 td{
+	width: 100px;
+	height: 23px;
+	border: 1px solid black;
+}
+
+.table-3 *{
+	border: 1px solid black;
+}
+
+.table-4 th, td{
+	border: 1px solid black;
+}
+
+.required-mark::after{
+	content: " *";
+	color: red;
+}
+
+.zoo{
+	margin: 20px 20px 50px 20px;
+}
+
+.zoo fieldset{
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 594px;
+}
+
+.zoo label{
+	display: inline-block;
+	width: 115px;
+}
+
+.block-1 input, select{
+	padding: 5px;
+	width: 250px;
+	margin-bottom: 15px;
+}
+
+.zoo select{
+	width: 264px; 
+}
+
+.zoo textarea{
+	width: 258px;
+	height: 105px;
+}
+
+label[for=props]{
+	vertical-align: top;
+}
+
+.block-2 input{
+	margin: 10px 5px;
+}
+
+input[type=submit]{
+	display: inline-block;
+	margin: 20px 0 0 2px;
+	width: 166px;
+	height: 37px;
+}
