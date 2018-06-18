@@ -296,7 +296,7 @@ h2::first-letter{
 .right-sidebar{
 	float: right;
 	width: 74%;
-	padding-left: 15px;
+	padding-left: 2%;
 }
 
 .about h2{
@@ -315,6 +315,117 @@ h2::first-letter{
 	color: #95161f;
 	text-decoration: none;
 	border-bottom: 1px solid #95161f;
+}
+
+.photo-block{
+	/*border: 1px solid red; */
+	margin-top: 18px;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.photo-block-item {
+
+	/*border: 1px solid green;*/
+	width: 28%;
+	margin-right: 5%;
+	
+} 
+
+.photo-block-item {
+	text-decoration: none;
+	color: #282d33;
+	font-size: 18px;
+}
+
+.photo-block-item > div{
+	margin-top: 15px;
+	height: 139px;
+	background: url(../backgrounds/photo.jpg) no-repeat;
+	border: 1px solid white;
+	box-shadow: 0px 4px 5px lightgray;
+}
+
+.photo-block-item_1 > div{
+	background-position: -3px -4px;
+}
+
+.photo-block-item_2 > div{
+	background-position: -215px -4px;
+}
+
+.photo-block-item_3 > div{
+	background-position: -426px -4px;
+}
+
+.lists h2{
+	margin-top: 30px;
+}
+
+.lists h4{
+	color: #5c646e;
+	font-size: 14px;
+}
+
+.list{
+	width: 33%;
+}
+
+.list li{
+	color: #5c646e;
+	font-size: 14px;
+}
+
+.lists-wrapper{
+	margin-top: 21px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.list ul, .list ol{
+	
+	list-style-position: inside;
+}
+
+.list code{
+	background: #dedede;
+}
+
+.nested-list{
+	margin-left: 6px;
+}
+
+.table-wrapper th{
+	background: #9c4757;
+	color: white;
+}
+
+.table-wrapper th, td{
+	text-align: center;
+	font-size: 12px;
+}
+.table-wrapper td{
+	background: #282d33;
+	color: #9da4af;
+}
+
+.table-wrapper tr{
+	height: 32px;
+}
+
+.table-wrapper tbody{
+	overflow: hidden; 
+	border-radius: 10px;
+
+  display: block;
+
 }
 
 hr{
