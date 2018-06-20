@@ -11,7 +11,7 @@
 }
 
 .search-block-wrapper{
-	position: relative;
+	/*position: relative;*/
 	margin: auto;
 	max-width: 980px;
 }
@@ -33,7 +33,7 @@ h2::first-letter{
 
 .logo-wrapper h2{
 	margin: 19px 0 0 11px;
-	margin-top: 19px;
+	/*margin-top: 19px;*/
 	text-transform: uppercase;
 }
 
@@ -146,18 +146,7 @@ h2::first-letter{
 }
 
 .menu a:hover{
-	position: relative;
-	/*color: #95161f;*/
 	background: #cd4e57;
-	
-	box-sizing: border-box;
-}
-
-.menu a:after{
-	content: "";
-	position: absolute;
-	border-bottom: 2px solid red;
-	opacity: 0;
 }
 
 .breadcrumb{
@@ -392,7 +381,6 @@ h2::first-letter{
 	text-align: center;
 	font-size: 12px;
 	border: 1px solid white;
-
 }
 
 .table-wrapper td{

@@ -1,0 +1,455 @@
+/*Tablets*/
+@media only screen and (max-width: 768px) {
+
+h2{
+	font-size: 20px;
+}
+
+.search-block{
+	height: auto;
+}
+
+.search-block-wrapper form{
+	padding: 5px;
+	margin: auto;
+	float: none;
+	text-align: center;
+}
+
+#search{
+	height: 20px;
+	font-size: 12px;
+}
+
+#search-submit{
+	height: 20px;
+	width: 20px;
+}
+
+.logo-wrapper{
+	width: 100%;
+}
+
+.logo-wrapper h2{
+	margin: 5px 0 0 11px;
+	text-align: center;
+}
+
+.logo-wrapper p{
+	font-size: 10px;
+	text-align: center;
+}
+
+.slider{
+	height: auto;
+	padding: 10px;
+	background-size: cover;
+}
+
+.slider h3{
+	font-size: 12px;
+}
+
+.slider h4{
+	font-size: 10px;
+}
+
+.slider p{
+	font-size: 10px;
+}
+
+.top-menu{
+	height: auto;
+}
+
+.menu{
+	float: none;
+}
+
+.menu a{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.breadcrumb ul{
+	margin-left: 5px;
+}
+
+.breadcrumb li{
+	line-height: 15px;
+	font-size: 8px;
+}
+
+.sidebar-wrapper{
+	padding-top: 5px;
+}
+
+.left-sidebar{
+	float: none;
+	width: 100%;
+}
+
+.left-sidebar h3{
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.left-sidebar form{
+	padding: 5px 5px 5px;
+}
+
+.left-sidebar input{
+	width: 20%;
+	margin-right: 3%;
+	height: 20px;
+	font-size: 10px;
+}
+
+.left-sidebar select{
+	width: 25%;
+	margin-right: 8%;
+	height: 20px;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.left-sidebar input[type=submit]{
+	width: 20%;
+	height: 20px;
+	border: 1px solid white;
+	font-size: 10px;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.headline{
+	margin-top: 0;
+	padding: 5px;
+	float: none;
+}
+
+.headline h3{
+	font-size: 12px;
+}
+
+.headline p{
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+.headline a{
+	font-size: 10px;
+}
+
+.right-sidebar{
+	float: none;
+	width: 100%;
+	padding: 5px;
+}
+
+.about{
+	border: 1px solid #dadde0;
+	padding: 5px;
+}
+
+.about h3{
+	font-size: 20px;
+}
+
+.about p{
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+.photo-block{
+	margin-top: 0;
+	padding: 5px;
+	width: 100%;
+}
+
+.photo-block-item {
+	font-size: 15px;
+}
+
+.photo-block-item > div{
+	margin-top: 0;
+}
+
+.lists{
+	padding: 5px;
+}
+
+.lists h2{
+	margin-top: 5px;
+}
+
+.lists h4{
+	font-size: 10px;
+}
+
+.list li{
+	font-size: 10px;
+}
+
+.lists-wrapper{
+	margin-top: 5px;
+}
+
+.table-wrapper table{
+	margin: 5px;
+}
+
+.table-wrapper th, td{
+	font-size: 10px;
+}
+
+.table-wrapper tr{
+	height: 16px;
+}
+
+footer{
+	padding: 5px;
+}
+
+.footer-item{
+	padding-right: 1%;
+	width: 32%;
+}
+
+.footer-item h5{
+	width: 98%;
+	padding-bottom: 8px;
+	border-bottom: none;
+	box-shadow: none;
+	font-size: 12px;
+}
+
+.footer-item li{
+	font-size: 9px;
+	margin-bottom: 5px;
+}
+
+.footer-item_1 li{
+	padding-left: 12px;
+	background-size: 10px 10px;
+}
+
+.footer-item_2 ul li:last-child{
+	font-size: 11px;
+}
+
+}/*} belong to Tablets CSS*/
+
+
+/*Phones*/
+
+@media only screen and (max-width: 480px) {
+
+h2{
+	font-size: 5vw;
+}
+
+.search-block-wrapper form{
+	padding: 2px;
+}
+
+#search{
+	width: 30%;
+	height: 12px;
+	font-size: 10px;
+}
+
+#search-submit{
+	height: 14px;
+	width: 14px;
+	background-size: 10px 10px;
+}
+
+.logo-wrapper h2{
+	margin: 2px 0 0 5px;
+}
+
+.logo-wrapper p{
+	font-size: 3vw;
+}
+
+.slider{
+	padding: 3px;
+}
+
+.slider h3{
+	font-size: 3vw;
+}
+
+.slider h4{
+	font-size: 3vw;
+}
+
+.slider p{
+	font-size: 3vw;
+}
+
+.menu a{
+	display: inline-block;
+	font-size:  3vw;
+	line-height: 22px;
+}
+
+.breadcrumb ul{
+	margin-left: 5px;
+}
+
+.breadcrumb li{
+	font-size: 3vw;
+}
+
+.sidebar-wrapper{
+	padding-top: 2px;
+}
+
+.left-sidebar h3{
+	padding-bottom: 2px;
+	font-size: 5vw;
+}
+
+.left-sidebar form{
+	padding: 2px 0px 2px 0px;
+}
+
+.left-sidebar input{
+	width: 22%;
+	margin: 0;
+	text-indent: 0;
+	text-align: center;
+	height: 5vw;
+	font-size: 2.5vw;
+}
+
+.left-sidebar select{
+	width: 30%;
+	margin: 0;
+	text-indent: 0;
+	text-align: center;
+	height: 5vw;
+	font-size: 2.5vw;
+}
+
+.left-sidebar input[type=submit]{
+	width: 30%;
+	height: 20px;
+	height: 5vw;
+	font-size: 2.5vw;
+}
+
+.headline{
+	padding: 2px;
+}
+
+.headline h3{
+	font-size: 4vw;
+}
+
+.headline p{
+	margin-top: 2px;
+	font-size: 3vw;
+}
+
+.headline a{
+	font-size: 3vw;
+}
+
+.right-sidebar{
+	padding: 2px;
+}
+
+.about{
+	padding: 2px;
+}
+
+.about h3{
+	font-size: 5vw;
+}
+
+.about p{
+	margin-top: 2px;
+	font-size: 3vw;
+}
+
+.photo-block{
+	padding: 2px;
+}
+
+.photo-block-item {
+	font-size: 3vw;
+}
+
+.lists{
+	padding: 2px;
+}
+
+.lists h2{
+	margin-top: 2px;
+}
+
+.lists h4{
+	font-size: 3vw;
+}
+
+.list li{
+	font-size: 3vw;
+}
+
+.lists-wrapper{
+	margin-top: 2px;
+}
+
+.table-wrapper table{
+	margin: 2px;
+}
+
+.table-wrapper th, td{
+	font-size: 3vw;
+}
+
+.table-wrapper tr{
+	height: 12px;
+}
+
+hr{
+	height: 2px;
+}
+
+footer{
+	padding: 2px;
+}
+
+.footer-item{
+	padding-right: 1%;
+	width: 32%;
+}
+
+.footer-item h5{
+	width: 98%;
+	padding-bottom: 2px;
+	border-bottom: none;
+	box-shadow: none;
+	font-size: 3vw;
+}
+
+.footer-item li{
+	font-size: 2.5vw;
+	margin-bottom: 2px;
+}
+
+.footer-item_1 li{
+	padding-left: 7px;
+	background-size: 7px 7px;
+}
+
+.footer-item_2 ul li:last-child{
+	font-size: 3vw;
+}
+
+}/*} belong to Phone CSS*/
