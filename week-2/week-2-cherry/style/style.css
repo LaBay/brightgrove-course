@@ -4,6 +4,8 @@
 	font-family: Arial;
 }
 
+
+
 .search-block{
 	height: 72px;
 	width: 100%;
@@ -149,8 +151,8 @@ h2::first-letter{
 
 .menu a:hover{
 	position: relative;
-	color: #95161f;
-	background: white;
+	/*color: #95161f;*/
+	background: #cd4e57;
 	
 	box-sizing: border-box;
 }
@@ -407,9 +409,21 @@ h2::first-letter{
 	color: white;
 }
 
+.table-wrapper table{
+
+	border-collapse: collapse;
+	margin-top: 25px;
+	margin-bottom: 55px;
+	/*display: inline-block;
+	border-radius: 15px;
+	overflow: hidden;*/
+}
+
 .table-wrapper th, td{
 	text-align: center;
 	font-size: 12px;
+	border: 1px solid white;
+
 }
 .table-wrapper td{
 	background: #282d33;
@@ -420,16 +434,107 @@ h2::first-letter{
 	height: 32px;
 }
 
-.table-wrapper tbody{
-	overflow: hidden; 
-	border-radius: 10px;
-
-  display: block;
-
+.table-wrapper  a{
+	color: #d08b98;
 }
+
+/*.table-wrapper tbody{
+	overflow: hidden; 
+	border: 1px solid transparent;
+	border-radius: 10px;
+}*/
 
 hr{
 	clear: both;
 	height: 7px;
 	background: #ae4b5d;
+	border: none;
+}
+
+footer{
+	padding-left: calc((100% - 980px)/2);
+	padding-right: calc((100% - 980px)/2);
+	padding-top: 30px;
+	background: #2a2d31;
+	color: #a5adb8;
+	display: flex;
+}
+
+.footer-item{
+	padding-right: 78px;
+}
+
+.footer-item h5{
+	width: 271px;
+	font-size: 18px;
+	border-bottom: 1px solid #191c20;
+	box-shadow: 0px 1px #40474f;
+	padding-bottom: 8px;
+}
+
+.first-red-letter{
+	display: inline-block;
+}
+
+.first-red-letter::first-letter{
+	color: #ae4b5d;
+}
+
+.footer-item ul{
+	margin-top: 10px;
+	list-style-position: inside;
+}
+
+.footer-item li{
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+
+.footer-item_1 ul{
+	list-style: none;
+}
+
+.footer-item_1 li{
+	background: url(../backgrounds/clock.png) no-repeat;
+	background-size: contain;
+	background-position: left center;
+	padding-left: 25px;
+}
+
+
+.footer-item_1 ul li:first-child{
+	margin-bottom: 15px;
+	background: none;
+	padding-left: 0px;
+}
+
+.footer-item_2 ul{
+	list-style-image: url(../backgrounds/dot.png);
+}
+
+.footer-item_2 ul li:last-child{
+	color: #a5adb8;
+	font-weight: bold;
+	font-size: 14px;
+	list-style: none;
+}
+
+.footer-item_2 a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-item_3 ul{
+	list-style: none;
+}
+
+.footer-item_3 a{
+	text-decoration: none;
+	color: inherit;
+	/**/
+}
+
+#tel-number{
+	color: #d08b98;
+	text-decoration: underline;
 }
