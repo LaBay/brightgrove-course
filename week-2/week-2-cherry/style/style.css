@@ -4,8 +4,6 @@
 	font-family: Arial;
 }
 
-
-
 .search-block{
 	height: 72px;
 	width: 100%;
@@ -26,7 +24,6 @@ h2{
 	font-weight: bold;
 	font-size: 30px;
 	color: #a5adb8;
-
 }
 
 h2::first-letter{
@@ -90,7 +87,6 @@ h2::first-letter{
 	padding-top: 45px;
 	padding-left: 40px;
 	box-sizing: border-box;
-	
 	max-width: 980px;
 	height: 240px;
 	background: url(../backgrounds/slider_bg.jpg) no-repeat;
@@ -164,23 +160,10 @@ h2::first-letter{
 	opacity: 0;
 }
 
-/*.menu a:hover:after{
-	content: "";
-	position: absolute;
-	border-bottom: 2px solid  #95161f;
-	bottom:0;
-	left: 0;
-	width: 100%;
-	opacity: 1;
-	transition: 0.5s;
-	
-}*/
-
 .breadcrumb{
 	margin: auto;
 	max-width: 980px;
 	background: #f3f3f3;
-	
 }
 
 .breadcrumb ul{
@@ -301,10 +284,6 @@ h2::first-letter{
 	padding-left: 2%;
 }
 
-.about h2{
-	
-}
-
 .about p{
 	margin-top: 19px;
 	color: #5c646e;
@@ -313,14 +292,12 @@ h2::first-letter{
 }
 
 .about a{
-	
 	color: #95161f;
 	text-decoration: none;
 	border-bottom: 1px solid #95161f;
 }
 
 .photo-block{
-	/*border: 1px solid red; */
 	margin-top: 18px;
 	width: 100%;
 	display: -webkit-flex;
@@ -331,11 +308,8 @@ h2::first-letter{
 }
 
 .photo-block-item {
-
-	/*border: 1px solid green;*/
 	width: 28%;
 	margin-right: 5%;
-	
 } 
 
 .photo-block-item {
@@ -392,7 +366,6 @@ h2::first-letter{
 }
 
 .list ul, .list ol{
-	
 	list-style-position: inside;
 }
 
@@ -410,13 +383,9 @@ h2::first-letter{
 }
 
 .table-wrapper table{
-
 	border-collapse: collapse;
 	margin-top: 25px;
 	margin-bottom: 55px;
-	/*display: inline-block;
-	border-radius: 15px;
-	overflow: hidden;*/
 }
 
 .table-wrapper th, td{
@@ -425,6 +394,7 @@ h2::first-letter{
 	border: 1px solid white;
 
 }
+
 .table-wrapper td{
 	background: #282d33;
 	color: #9da4af;
@@ -437,12 +407,6 @@ h2::first-letter{
 .table-wrapper  a{
 	color: #d08b98;
 }
-
-/*.table-wrapper tbody{
-	overflow: hidden; 
-	border: 1px solid transparent;
-	border-radius: 10px;
-}*/
 
 hr{
 	clear: both;
@@ -501,7 +465,6 @@ footer{
 	padding-left: 25px;
 }
 
-
 .footer-item_1 ul li:first-child{
 	margin-bottom: 15px;
 	background: none;
@@ -531,7 +494,6 @@ footer{
 .footer-item_3 a{
 	text-decoration: none;
 	color: inherit;
-	/**/
 }
 
 #tel-number{
