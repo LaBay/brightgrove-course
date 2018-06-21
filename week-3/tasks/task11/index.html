@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 11</title>
+	<script type="text/javascript" defer>
+		"use strict"
+
+function check(login, message) {
+	login == 'Вася' ? message = 'Привет!' : (login == 'Директор' ? message = 'Здравствуйте' : (login == ' ' ? message = 'Нет логина': message = ' '));
+	document.getElementById('output').innerHTML = message;
+}
+	</script>
+</head>
+<body>
+  <input list="users" id="input" onchange="check(value)" placeholder="Введите логин">
+  <datalist id="users">
+    <option value="Вася">
+    <option value="Директор">
+    <option value=" ">
+  </datalist>
+  <p id="output"> </p>
+	
+</body>
+</html>

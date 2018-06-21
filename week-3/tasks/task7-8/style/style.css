@@ -1,0 +1,19 @@
+body{
+	padding: 50px;
+}
+
+form{
+	width: 500px;
+}
+
+input[type=text]{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	text-indent: 10px;
+}
+
+input[type=button]{
+	margin-bottom: 10px;
+	width: 45%;
+}

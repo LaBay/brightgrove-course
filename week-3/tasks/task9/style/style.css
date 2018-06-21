@@ -1,0 +1,40 @@
+h3{
+	text-align: center;
+}
+.traffic-light{
+	margin: auto;
+	width: 150px;
+	height: 600px;
+	border: 1px solid black;
+	background: lightgray;
+}
+
+.traffic-light div{
+	margin: auto;
+	margin-top: 50px;
+	width: 120px;
+	height: 120px;
+	border: inherit;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 120px;
+}
+
+#red{
+	background: red;
+}
+
+#yellow{
+	background: yellow;
+}
+
+#green{
+	background: green;
+}
+
+p{
+	
+	text-align: center;
+	font-size: 20px;
+	background: white;
+}
