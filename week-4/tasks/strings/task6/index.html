@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 7</title>
+	<script type="text/javascript">
+		
+
+	var students = ["Илья","Greg", "Алина"];
+
+	for(let key in students){
+		let arr = students[key];
+		arr = arr.split('');
+		for(let index in arr){
+
+			if(!/[а-я]/i.test(arr[index])) document.writeln('В элементе №' + key + ' есть некириллические символы' + "<br>");
+			break;
+		}
+	}
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

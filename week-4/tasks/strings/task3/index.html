@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3</title>
+	<script type="text/javascript">
+		
+		var correctAnswer = "понедельник";
+		
+		var userAnswer = prompt("Первый день недели?");
+
+		function compare(correctAnswer, userAnswer) {
+			userAnswer = userAnswer.toLowerCase();
+			if(userAnswer == correctAnswer){document.writeln("Это правильный ответ!")
+				}else{document.writeln("Это неправильный ответ!")}
+		};
+
+		compare(correctAnswer, userAnswer);
+
+	</script>
+</head>
+<body>
+	
+	<p id="output"></p>
+	
+</body>
+</html>

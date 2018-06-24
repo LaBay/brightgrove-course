@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 6</title>
+	<script type="text/javascript">
+		
+		function truncate(str, maxlength){
+		if(str.length > maxlength){
+			str = str.split('');
+			str.length = maxlength;
+			str[maxlength - 1] = "...";
+			str = str.join('');
+		}
+		console.log(str);
+		return str;
+	}
+
+	truncate(prompt("Введите строку"), +prompt("Введите максимальную длину"))
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

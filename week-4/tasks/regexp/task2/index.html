@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2</title>
+	<script type="text/javascript">
+	
+	let str = `"Иван вчера потерял свою кредитку, ее номер 1178-9087-2384-8787.
+		Поэтому он пошел в банк и описал ситуацию. Там пошли ему навстречу и выдали
+		новую кредитку под номером:  1103-8899-0811-1722"`;
+	
+	let re1 = /[0-3]+[0-3]+[0-3]+[0-3]+\S+[0-9]+[0-9]+[0-9]+[0-9]/;
+	let result = (str.match(re1)[0]);
+	document.writeln(result)
+
+	/*Второй вариант решения с использованием функции*/
+
+	let re2 = /[0-3]+[0-3]+[0-3]+[0-3]/;
+	let re3 = /[0-9]+[0-9]+[0-9]+[0-9]/;
+	result = '';
+		function search(string, re1, re2, output) {
+			for(let i = 1; i <= 4; i++ ){
+				if(result.length < 1){ 
+					output = string.match(re1);
+					result += output[0]}
+					else{
+						output = string.match(re2)
+						result += "-" + output[0]};
+					string = string.slice(output["index"] + 4);
+				}
+		}
+	
+	search(str,re2,re3);
+	document.writeln("<br>" + "Второй вариант решения с использованием функции ", result);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

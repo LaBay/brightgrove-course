@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 8</title>
+	<script type="text/javascript">
+		
+	str = "my-short-string";
+
+	str = str.split("-");
+
+	/*for(let i = 1; i < str.length; i++ ) {
+		str[i] = str[i].split('');
+		str[i][0] = str[i][0].toUpperCase();
+		str[i] = str[i].join('');
+
+	}*/
+
+	for(let index in str){
+		if(index > 0){
+			str[index] = str[index].split('');
+			str[index][0] = str[index][0].toUpperCase();
+			str[index] = str[index].join('');
+		}
+	}
+
+	str = str.join('');
+
+	console.log(str)
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
