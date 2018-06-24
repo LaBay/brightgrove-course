@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 6</title>
+	<script type="text/javascript">
+	
+	var randomArray = new Array(10);
+	function randomFill(arr, min, max){
+		for(var i = 0; i < arr.length; i++) arr[i] = Math.floor(Math.random()*(max-min)) + min;
+	};
+	
+	randomFill(randomArray, 1, 10);
+	document.writeln(randomArray);
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

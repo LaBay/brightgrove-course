@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 5</title>
+	<script type="text/javascript">
+	
+	function round(arr, func) {
+		for(let i in arr){ arr[i] = func(arr[i])}
+		document.writeln("Math." + func.name + ": " + arr + "<br>")
+	}
+
+	var numberArray = [34.82, 12.90, 17.01, 78.51];
+	round(numberArray, Math.round);
+
+	var numberArray = [34.82, 12.90, 17.01, 78.51];
+	round(numberArray, Math.ceil);
+
+	var numberArray = [34.82, 12.90, 17.01, 78.51];
+	round(numberArray, Math.floor)
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 1</title>
+	<script type="text/javascript">
+		var randSimbol = ["Молоко", 77, 11, "Мед", -88];
+
+		function sort(arr) {
+			for(let i in arr){
+				document.writeln("В элементе массива № " + i + " содержится тип данных " + (function (){if (typeof(arr[i]) === "number"){ return "число"}
+				 	else return "не число"})() + "<br>")
+			}
+		}
+		sort(randSimbol)
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
