@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2</title>
+	<script type="text/javascript">
+		
+		var salaries = {
+			"Вася": 100,
+			"Петя": 300,
+			"Даша": 250
+		};
+
+		var result = {
+			name: "",
+			max: 0
+		};
+
+		for(let key in salaries) {
+			if(result["max"] < salaries[key]) {
+				result["name"] = key;
+				result["max"] = salaries[key];
+			}
+		};
+
+		alert(result["name"])
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
