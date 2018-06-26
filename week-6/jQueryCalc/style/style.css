@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: orange;
+}
+
+.wrapper{
+	margin: calc(10%) auto;
+	width: 700px;
+	height: 350px;
+	background: lightgray;
+}
+
+#monitor{
+	margin: auto;
+	height: 160px;
+	width: 650px;
+	border: 1px solid blue;
+	text-align: center;
+
+}
+
+.buttonsField{
+	margin: auto;
+	height: 50px;
+	width: 200px;
+	border: 1px solid blue;
+	text-align: center;
+	
+}
+
+.operator{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid orange;
+	background: gray;
+	vertical-align: middle;
+	text-align: center;
+}

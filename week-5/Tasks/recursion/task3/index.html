@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3</title>
+	<script type="text/javascript">
+
+	var i;
+
+	function count(){
+		if(!i){ i = 1 };
+		console.log("setInterval", i);
+		i++;
+		if(i > 20) {
+			i = 0;
+			clearInterval(intervalID);
+		}
+	}
+
+	var intervalID = window.setInterval(count, 100);
+
+	/*******/
+	
+	var j;
+
+	function count1() {
+		if(!j) j = 1;
+		if(j <= 20) {
+			console.log("setTimeout", j);
+			j++;
+			var timeoutID = window.setTimeout(count1, 100);
+		}else{return}
+	};
+	count1()
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

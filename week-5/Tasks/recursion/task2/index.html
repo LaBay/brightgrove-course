@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2</title>
+	<script type="text/javascript">
+		
+		var integer = +prompt("Введите натуральное число");
+		var result = 0;
+
+		/*First way*/
+		for(let i = 1; i <= integer; i++) result += i;
+		alert(result);
+
+		/*Second way*/
+		var sumTo = function(n) {
+			if(n==1) return 1;
+			return sumTo(n - 1) + n;
+		}
+		alert(sumTo(integer));
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
