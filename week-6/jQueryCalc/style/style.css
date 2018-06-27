@@ -6,7 +6,7 @@
 
 .wrapper{
 	margin: calc(10%) auto;
-	width: 700px;
+	width: 1000px;
 	height: 350px;
 	background: lightgray;
 }
@@ -14,27 +14,38 @@
 #monitor{
 	margin: auto;
 	height: 160px;
-	width: 650px;
+	width: 990px;
 	border: 1px solid blue;
 	text-align: center;
 
 }
 
 .buttonsField{
+	display: inline-block;
 	margin: auto;
-	height: 50px;
-	width: 200px;
+	height: 100px;
+	width: 50px;
 	border: 1px solid blue;
 	text-align: center;
 	
 }
 
 .operator{
-	display: inline-block;
+	display: inline;
 	width: 30px;
 	height: 30px;
 	border: 1px solid orange;
 	background: gray;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.input{
+	padding: 16px;
+	font-size: 20px;
+	text-shadow: 1px 2px gray;
+}
+
+.output{
+	display: inline-block;
 }

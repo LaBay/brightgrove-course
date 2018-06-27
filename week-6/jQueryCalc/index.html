@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Calculator</title>
-	<script type="text/javascript" src="script/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="script/script.js"></script>
+	<script type="text/javascript" src="script/jquery-3.3.1.js" defer></script>
+	<script type="text/javascript" src="script/script.js" defer></script>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
@@ -12,17 +12,18 @@
 	<div class="wrapper">
 		<div id="monitor">
 			<input type="text" id="frstOperand" class="input">
-			<span id="operationType" class="operator"></span>
+			<div class="buttonsField">
+				<input type="button" value="+" id="" class="operator">
+				<input type="button" value="-" id="" class="operator">
+				<input type="button" value="&#8727;" id="" class="operator">
+				<input type="button" value="÷" id="" class="operator">
+			</div>
+			<!--<span id="operationType" class="operator"></span>-->
 			<input type="text" id="scndOperand" class="input">
 			<span class="operator">=</span>
 			<span id="output"></span>
 		</div>
-		<div class="buttonsField">
-			<input type="button" value="+" id="" class="operator">
-			<input type="button" value="-" id="" class="operator">
-			<input type="button" value="&#8727;" id="" class="operator">
-			<input type="button" value="÷" id="" class="operator">
-		</div>
+
 	</div>
 	
 </body>
