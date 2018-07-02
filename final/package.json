@@ -2,13 +2,16 @@
   "name": "final",
   "version": "1.0.0",
   "description": "final task",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LaBay",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.1"
   }
 }
