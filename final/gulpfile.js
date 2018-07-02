@@ -8,7 +8,6 @@ gulp.task('sass', function () {
   return gulp.src('./style/sass/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./style/style'))
-    .pipe(livereload());
 });
  
 gulp.task('sass:watch', function () {
