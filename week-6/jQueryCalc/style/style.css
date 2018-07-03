@@ -1,8 +1,13 @@
+@font-face{
+	font-family: 'digital';
+	src: url('../font/DS-DIGII.TTF');
+}
+
 *{
 	margin: 0;
 	padding: 0;
 	color: orange /*#ff3300*/;
-	font-family: Arial;
+	font-family: digital;
 }
 
 h2{
@@ -51,7 +56,7 @@ h2{
 	text-shadow: 1px 2px gray;
 	border: 1px solid gray;
 	outline: none;
-	text-indent: 5px;
+	/*text-indent: 5px;*/
 	text-align: center;
 }
 
