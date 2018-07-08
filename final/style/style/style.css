@@ -442,10 +442,10 @@ header form {
   bottom: 2%;
   box-shadow: none; }
 
-.team-item:hover .person-info a {
+.team-item:hover a {
   font-size: 18px; }
 
-.team-item:hover .person-info .position {
+.team-item:hover .position {
   color: #ff724c; }
 
 .skills-block {
@@ -537,3 +537,107 @@ header form {
     transition: 0.5s; }
 
 /* SIXTH SECTION "CLIENTS SAID" */
+.feedback h2 {
+  margin-top: 140px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #626262;
+  text-align: center; }
+
+.slider {
+  margin: auto;
+  max-width: 1100px;
+  height: 350px; }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 18px;
+  color: #343434;
+  transition: 0.3s;
+  z-index: 20;
+  box-shadow: 0px 0px 5px gray; }
+
+.slick-arrow:hover {
+  background-color: #ff6e47;
+  color: white; }
+
+#left-direction {
+  left: -23px; }
+
+#right-direction {
+  right: -23px; }
+
+.slider-item {
+  display: inline-block;
+  position: relative;
+  max-width: 530px;
+  height: 270px;
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  transition: 0.5s;
+  z-index: 1;
+  padding: 90px 40px 40px 40px;
+  margin-top: 50px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 50px;
+  outline: none; }
+
+.slider-item__1 .user-photo {
+  background-image: url("../../backgrounds/user1.jpg"); }
+
+.slider-item__2 .user-photo {
+  background-image: url("../../backgrounds/user2.jpg"); }
+
+.slider-item__3 .user-photo {
+  background-image: url("../../backgrounds/user3.jpg"); }
+
+.slider-item:hover {
+  box-shadow: 0px 0px 10px gray;
+  border-color: transparent; }
+
+.user-photo {
+  position: absolute;
+  left: calc(50% - 100px/2);
+  top: calc(-100px/2);
+  z-index: 10;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-size: cover; }
+
+.user-comment {
+  font-size: 17px;
+  color: #737373; }
+
+.stars-block {
+  text-align: center;
+  margin: 20px; }
+
+.star {
+  color: #ffef3b; }
+
+.user-about {
+  text-align: center;
+  color: #737373;
+  font-size: 17px; }
+
+.user-name {
+  font-weight: bold; }
+
+.user-position {
+  font-style: italic; }
